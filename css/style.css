@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap');
+.logo{
+    font-family: 'Anton', sans-serif;
+}
+.baner-index{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.cord-index{
+    border-radius: 25px;
+    width: 250px;
+    margin: 15px auto;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.img-iphone{
+    height: 50em;
+    object-fit: cover;   
+}
+.baner-azul{
+    margin: auto;
+}
+.pesos-style{
+   height: 50px;
+   max-width: 50px;
+}
+/* footer */
+.redes-sociales{
+    text-decoration: none;
+}
+
+/* seguiridad */
+.seguridad-imgGalxy{
+    height: 22em;
+    object-fit: cover;   
+}

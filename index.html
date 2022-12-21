@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="banco rolling code" />
+        <meta name="author" content="Mario Chavez" />
+        <meta name="Keywords" content="finanzas, banco , dinero" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>RollingBank</title>
+    </head>
+    <body>
+        <header>
+            <section>
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container">
+                        <h3 class="fw-bold logo">RollingBank</h3>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="./index.html"
+                                        >Inicio</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/quienessomos.html"
+                                        >¿Quienes Somos?</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/precios.html"
+                                        >Precios</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./seguridad.html"
+                                        >Seguridad</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/robooextravio.html"
+                                        >Robo o extravio</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section id="cauroselProduct" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#cauroselProduct"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#cauroselProduct"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#cauroselProduct"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="./img/banner/bitcoin.jpg"
+                            class="d-block w-100 baner-index"
+                            alt="bitcoin"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./img/banner/cajero.jpg"
+                            class="d-block w-100 baner-index"
+                            alt="cajeros"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./img/banner/dolar.jpg"
+                            class="d-block w-100 baner-index"
+                            alt="dolar"
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#cauroselProduct"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#cauroselProduct"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </section>
+            <section class="container my-4">
+                <article class="row">
+                    <aside class="col-12 col-md-5 col-lg-4 text-center cord-index">
+                        <i
+                            class="bi bi-hand-thumbs-up"
+                            style="font-size: 2rem; color: red"
+                        ></i>
+                        <h4>Sin sorpresa</h4>
+                        <p>Somos transparentes, no vas a encontrar letra chica.</p>
+                    </aside>
+                    <aside class="col-12 col-md-5 col-lg-4 text-center cord-index">
+                        <i
+                            class="bi bi-emoji-sunglasses"
+                            style="font-size: 2rem; color: blue"
+                        ></i>
+                        <h4>Aprobado</h4>
+                        <p>Estamos autorizados y regulados por el Banco Central.</p>
+                    </aside>
+                    <aside class="col-12 col-md-12 col-lg-4 text-center cord-index">
+                        <i
+                            class="bi bi-currency-dollar"
+                            style="font-size: 2rem; color: green"
+                        ></i>
+                        <h4>Sin costos</h4>
+                        <p>Todas tus operaciones diarias estan incluidas.</p>
+                    </aside>
+                </article>
+            </section>
+            <section class="container my-5">
+                <article class="row">
+                    <aside class="col-12 col-md-6">
+                        <img
+                            src="./img/iphone-illustration-sec.png"
+                            alt="iphone-index"
+                            width="100%"
+                            class="img-iphone"
+                        />
+                    </aside>
+                    <aside class="col-12 col-md-6 row">
+                        <div class="my-2">
+                            <h3>Tu seguridad prioridad</h3>
+                            <p>
+                                Seguimos la mejores prácticas de cyberseguridad sin
+                                complicarte tu operaciones diarias
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <i class="bi bi-eye" style="font-size: 2rem; color: red"></i>
+                            <h3>Biometría</h3>
+                            <p>
+                                Nuestra tecnologia te permite acceder a tu cuenta usando
+                                tu huella digital o tu cara.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <i
+                                class="bi bi-fingerprint"
+                                style="font-size: 2rem; color: blue"
+                            ></i>
+                            <h3>Segundo factor</h3>
+                            <p>
+                                Usamos un Token invisible para todas las operaciones que
+                                hagas.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <i
+                                class="bi bi-puzzle"
+                                style="font-size: 2rem; color: #38d3f2"
+                            ></i>
+                            <h3>Personal</h3>
+                            <p>
+                                Vas a poder ingresar desde un dispositivo a la vez a tu
+                                cuenta.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <i
+                                class="bi bi-robot"
+                                style="font-size: 2rem; color: greenyellow"
+                            ></i>
+                            <h3>100% encriptado</h3>
+                            <p>
+                                Usamos un Token invisible para todas las operaciones que
+                                hagasTodas las transacciones son encriptadas para tu mayor
+                                seguridad.
+                            </p>
+                        </div>
+                    </aside>
+                </article>
+            </section>
+            <section class="bg-primary text-center">
+                <article class="p-3 w-75 baner-azul">
+                    <h5 class="display-2 text-light text-center logo">
+                        RollingBank te esta esperando
+                    </h5>
+                    <p class="text-light bg-primary text-center container fs-5 my-2">
+                        Bajá la app y vivi una nueva experiencia. Empeza creando tu cuenta
+                        solo con tu DNI.
+                    </p>
+                    <div class="col-12 col-md-5 col-lg-1 m-auto p-5">
+                        <img
+                            src="./img/badge-apple-store.svg"
+                            alt="IOS"
+                            width="160em"
+                            height="70em"
+                            style="text-align: center"
+                        />
+                        <img
+                            src="./img/google-play-badge-bb.svg"
+                            alt="Android"
+                            width="160em"
+                            height="70em"
+                        />
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="text-light bg-dark p-4">
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 my-3 d-flex">
+                        <h3 class="fw-bold logo">RollingBank</h3>
+                        <a
+                            href="./pages/404.html"
+                            class="text-secondary redes-sociales ms-3"
+                        >
+                            <i class="bi bi-whatsapp fs-5"></i>
+                        </a>
+                        <a
+                            href="./pages/404.html"
+                            class="text-secondary mx-1 redes-sociales"
+                        >
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="./pages/404.html" class="text-secondary redes-sociales">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="text-muted">Navegacion</h5>
+                        <p class="text-muted">
+                            ¿Quiénes somos? Precios Seguridad ayuda Robo o extravio
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="text-muted">Legales</h5>
+                        <p class="text-muted">
+                            Regimen de transparencia Usuario bancario Conducta bancaria
+                            Estados contables es la mejor eleccion
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img
+                            src="./img/usuariosfinancieros.png"
+                            alt="ususario-financie"
+                            width="70%"
+                        />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="text-muted">Unité</h5>
+                        <img
+                            src="./img/badge-apple-store.svg"
+                            alt="IOS"
+                            width="70%"
+                            style="margin-bottom: 10px"
+                        />
+                        <img
+                            src="./img/google-play-badge-bb.svg"
+                            alt="Android"
+                            width="70%"
+                        />
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>
